@@ -534,6 +534,15 @@ img {
   border: 1px solid rgba(22, 87, 184, 0.12);
 }
 
+.contact-strip-card strong {
+  display: block;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
+  line-height: 1.45;
+}
+
 .contact-strip-label {
   display: block;
   margin-bottom: 0.4rem;
@@ -613,6 +622,9 @@ img {
 
 .footer-address {
   max-width: 24rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
 }
 
 .form-control,
